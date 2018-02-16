@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="notifcationexamples.NotificationsUIController">
+   <children>
+      <Button fx:id="button1" layoutX="29.0" layoutY="23.0" mnemonicParsing="false" onAction="#startTask1" text="Start Task 1" />
+      <Button fx:id="button2" layoutX="136.0" layoutY="23.0" mnemonicParsing="false" onAction="#startTask2" text="Start Task 2" />
+      <Button fx:id="button3" layoutX="244.0" layoutY="23.0" mnemonicParsing="false" onAction="#startTask3" text="Start Task 3" />
+      <TextArea fx:id="textArea" layoutX="29.0" layoutY="61.0" prefHeight="307.0" prefWidth="338.0" />
+      <TextField fx:id="textField1" layoutX="381.0" layoutY="118.0" text="NULL" />
+      <TextField fx:id="textField2" layoutX="381.0" layoutY="199.0" text="NULL" />
+      <TextField fx:id="textField3" layoutX="381.0" layoutY="291.0" text="NULL" />
+      <Text layoutX="381.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Task 1 is:" />
+      <Text layoutX="381.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Task 3 is:" />
+      <Text layoutX="381.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Task 2 is:" />
+   </children>
+</AnchorPane>
